@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+.main-article-date-time-svg {
+    fill: #fff;
+}
+
+.main-article-date-time-svg-black {
+    fill: #000;
+}
+
+.white {
+    color: #fff;
+}
+
+.dark {
+    background-color: #302C2C;
+}
+
+@media only screen and (max-device-width : 375px) {
+    .container {
+        width: 95.733%;
+        margin: auto;
+    }
+
+    body {
+        background-color: #444444;
+    }
+
+    .search-bar, .header-btn__soc {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        background-color: #000;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 21px;
+        border-radius: 10px;
+        margin-top: 8px;
+    }
+
+    .main-article {
+        background-color: #fff;
+        padding: 12px 0 12px 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-radius: 10px;
+        margin-bottom: 8px;
+    }
+
+    .main-article-banner {
+        width: 96.55%;
+        height: 220px;
+        border-radius: 6px;
+        margin-bottom: 10px;
+    }
+
+    .article-header-banner {
+        background-color: #9C9CFF;
+    }
+
+    .article-tags-banner {
+        background-color: #e3e3e3;
+        height: 182px;
+    }
+
+    
+    .main-article-date {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 12px;
+        line-height: 140%;
+        width: 47.955%;
+    }
+
+    .article-header {
+        height: 438px;
+    }
+
+    .main-article-text-headers {
+        margin: 12px 0;
+    }
+
+    .main-article-text-headers h2 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .main-article-text-par {
+        font-size: 18px;
+        line-height: 120%;
+    }
+
+    .article-tags {
+        height: 504px;
+    }
+
+    .main-article-tags-ul {
+        height: 234px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .main-article-tags-ul li a {
+        display: flex;
+        text-decoration: none;
+        color: #000;
+        /* width: 96.314%; */
+    }
+
+    .main-article-tags-ul li:nth-child(2) {
+        margin: 8px 0;
+    }
+
+    .main-article-tag-image {
+        width: 23.32%;
+        height: 72px;
+        margin-right: .5em;
+        background-color: #e3e3e3;
+        border-radius: 10px;
+    }
+
+    .main-article-date-time {
+        display: flex;
+        justify-content: space-between;
+        width: 40.333%;
+    }
+
+    .tag-text-header {
+        font-size: 14px;
+        line-height: 120%;
+        text-transform: uppercase;
+        background-color: #93ff82;
+        font-weight: bold;
+        padding: 4px 8px;
+        border: 0;
+        border-radius: 6px;
+    }
+
+    .main-article-tag-text p {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .main-article-tag-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .article-vertical-banner {
+        background-color: #EA2E34;
+        height: 240px;
+    }
+
+    .article-vertical {
+        background-color: #000000;
+    }
+
+    .article-vertical-date {
+        color: #fff;
+    }
+
+    .article-vertical {
+        height: 363px;
+    }
+
+    .main-article-text-headers-small h2 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .article-full {
+        padding: 0;
+        background-color: #444444;
+    }
+
+    .article-full-banner {
+        width: 100%;
+        background-color: #FFC7F3;
+        height: 281px;
+        margin-bottom: 0;
+    }
+
+    .article-full-banner-text {
+        padding: 12px 0 0 12px;
+        border-radius: 10px;
+        background-color: #fff;
+        height: 111px;
+    }
+
+    .main-article-text-headers-large {
+        font-weight: bolder;
+        font-size: 36px;
+        line-height: 110%;
+    }
+
+    .article-full-banner-text-large {
+        padding: 12px 0 0 12px;
+        color: #fff;
+        border-radius: 10px;
+        height: 282px;
+    }
+
+    .text-par-half {
+        width: 50%;
+        margin-bottom: 12px;
+    }
+}
