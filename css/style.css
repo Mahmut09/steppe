@@ -266,4 +266,52 @@ li {
         font-size: 16px;
         line-height: 140%;
     }
+
+
+    /* ---------------------------- */
+
+    .search-tags {
+        height: 452px;
+        justify-content: flex-start;
+    }
+
+    .search-tags-ul {
+        height: 100%;
+        padding-top: 10px;
+    }
+
+    .search-tags-btn {
+        background-color: #EEF1F8;
+        border: 1px solid #000;
+    }
+
+    .article-read-also {
+        background-color: #444444;
+        padding: 0 8px;
+        margin-top: 28px;
+    }
+
+    .main-read-also-banner {
+        width: 83px;
+        height: 83px;
+        background-color: #BEBEBE;
+        border-radius: 6px;
+    }
+
+    .main-read-also-header {
+        width: 264px;
+    }
+
+    .main-read-also-header h4 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .main-read-also {
+        display: flex;
+    }
+
+    .read-also-state {
+        margin-bottom: 16px;
+    }
 }
