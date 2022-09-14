@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
@@ -13,54 +17,57 @@
 
         <main class="main">
 
-            <section class="main-article article-header-pages">
+            <section class="wrapper-header-soc">
+                <section class="main-article article-header-pages">
                 
-                <div class="main-article-banner article-pages-banner">
-                    <img src="" alt="">
-                </div>
+                    <div class="main-article-banner article-pages-banner">
+                        <img src="" alt="">
+                    </div>
+                    
+                </section> <!-- main-article article-header-pages -->
+    
+                <section class="main-article pages-soc">
+    
+                    <ul class="pages-soc-ul">
+                        <li>
+                            <button class="pages-repost-btn">Поделись</button>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/whatsapp.png" alt="whatsapp-icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/vector.png" alt="telegram-icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/facebook.png" alt="facebook-icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/VK - Original.png" alt="vk-icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/sms.3 1.png" alt="sms-icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/link-1.3 1.png" alt="link-icon">
+                            </a>
+                        </li>
+                    </ul>
+    
+                </section> <!-- main-article pages-soc -->
                 
-            </section> <!-- main-article article-header-pages -->
+            </section>
 
-            <section class="main-article pages-soc">
-
-                <ul class="pages-soc-ul">
-                    <li>
-                        <button class="pages-repost-btn">Поделись</button>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="images/whatsapp.png" alt="whatsapp-icon">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="images/vector.png" alt="telegram-icon">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="images/facebook.png" alt="facebook-icon">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="images/VK - Original.png" alt="vk-icon">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="images/sms.3 1.png" alt="sms-icon">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="images/link-1.3 1.png" alt="link-icon">
-                        </a>
-                    </li>
-                </ul>
-
-            </section> <!-- main-article pages-soc -->
-            
             <section class="pages-text">
 
                 <div class="pages-text-par">
@@ -103,6 +110,23 @@
 
             <section class="slider">
                 
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            slide 1
+                        </div>
+                        <div class="swiper-slide">
+                            slide 2
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination slider-pag"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"><img src="images/swiper-btn.png" alt=""></div>
+                    <div class="swiper-button-next"><img src="images/swiper-btn.png" alt=""></div>
+                </div> <!-- swiper -->
+
             </section> <!-- slider -->
 
             <section class="pages-text">
@@ -232,8 +256,10 @@
             </section> <!-- pages-text -->
 
             <section class="misstake-banner">
-                Нашли опечатку или ошибку?
-                Выдeлите фрагмент и нажмите <span id="combination">Ctrl+Enter.</span>
+                <p>
+                    Нашли опечатку или ошибку?
+                    Выдeлите фрагмент и нажмите <span id="combination">Ctrl+Enter.</span>
+                </p>
             </section><!--misstake-banner -->
 
             <section class="pages-tags">
@@ -247,64 +273,75 @@
 
 
 
-            <section class="main-article article-vertical">
+            <section class="wrapper-main-article">
+                <section class="main-article article-vertical">
 
-                <div class="main-article-banner article-vertical-banner">
-                    <img src="" alt="">
-                </div>
-                <div class="main-article-date article-vertical-date">
-
-                    <div class="main-article-date-day">
-                        19 Июля, 2022
+                    <div class="main-article-banner article-vertical-banner">
+                        <img src="" alt="">
                     </div>
-                    <div class="main-article-date-time">
-                        
-                        <svg class="main-article-date-time-svg" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M7.60954 5.23483C7.60954 4.99502 7.41513 4.80062 7.17532 4.80062C6.93551 4.80062 6.74111 4.99502 6.74111 5.23483H7.60954ZM7.50049 7.16212L7.69468 6.77375L7.50049 7.16212ZM8.1576 7.97615C8.3721 8.0834 8.63292 7.99646 8.74017 7.78196C8.84741 7.56747 8.76047 7.30665 8.54598 7.1994L8.1576 7.97615ZM6.74111 5.23483V6.63599H7.60954V5.23483H6.74111ZM7.3063 7.5505L8.1576 7.97615L8.54598 7.1994L7.69468 6.77375L7.3063 7.5505ZM6.74111 6.63599C6.74111 7.02327 6.95991 7.3773 7.3063 7.5505L7.69468 6.77375C7.6425 6.74766 7.60954 6.69433 7.60954 6.63599H6.74111ZM12.6235 6.99954C12.6235 10.0085 10.1842 12.4477 7.17532 12.4477V13.3161C10.6639 13.3161 13.4919 10.4881 13.4919 6.99954H12.6235ZM7.17532 12.4477C4.1664 12.4477 1.72718 10.0085 1.72718 6.99954H0.858753C0.858753 10.4881 3.68678 13.3161 7.17532 13.3161V12.4477ZM1.72718 6.99954C1.72718 3.99062 4.1664 1.5514 7.17532 1.5514V0.682972C3.68678 0.682972 0.858753 3.511 0.858753 6.99954H1.72718ZM7.17532 1.5514C10.1842 1.5514 12.6235 3.99062 12.6235 6.99954H13.4919C13.4919 3.511 10.6639 0.682972 7.17532 0.682972V1.5514ZM10.8588 6.99954C10.8588 9.03384 9.20962 10.683 7.17532 10.683V11.5514C9.68925 11.5514 11.7272 9.51346 11.7272 6.99954H10.8588ZM7.17532 10.683C5.14102 10.683 3.49189 9.03384 3.49189 6.99954H2.62346C2.62346 9.51346 4.6614 11.5514 7.17532 11.5514V10.683ZM3.49189 6.99954C3.49189 4.96524 5.14102 3.31611 7.17532 3.31611V2.44768C4.6614 2.44768 2.62346 4.48562 2.62346 6.99954H3.49189ZM7.17532 3.31611C9.20962 3.31611 10.8588 4.96524 10.8588 6.99954H11.7272C11.7272 4.48562 9.68925 2.44768 7.17532 2.44768V3.31611Z">
-                        </svg>
-                        20 минут
+                    <div class="wrapper-vertical-banner">
+                        <div class="main-article-date article-vertical-date">
+    
+                            <div class="main-article-date-day">
+                                19 Июля, 2022
+                            </div>
+                            <div class="main-article-date-time">
+                                
+                                <svg class="main-article-date-time-svg" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.60954 5.23483C7.60954 4.99502 7.41513 4.80062 7.17532 4.80062C6.93551 4.80062 6.74111 4.99502 6.74111 5.23483H7.60954ZM7.50049 7.16212L7.69468 6.77375L7.50049 7.16212ZM8.1576 7.97615C8.3721 8.0834 8.63292 7.99646 8.74017 7.78196C8.84741 7.56747 8.76047 7.30665 8.54598 7.1994L8.1576 7.97615ZM6.74111 5.23483V6.63599H7.60954V5.23483H6.74111ZM7.3063 7.5505L8.1576 7.97615L8.54598 7.1994L7.69468 6.77375L7.3063 7.5505ZM6.74111 6.63599C6.74111 7.02327 6.95991 7.3773 7.3063 7.5505L7.69468 6.77375C7.6425 6.74766 7.60954 6.69433 7.60954 6.63599H6.74111ZM12.6235 6.99954C12.6235 10.0085 10.1842 12.4477 7.17532 12.4477V13.3161C10.6639 13.3161 13.4919 10.4881 13.4919 6.99954H12.6235ZM7.17532 12.4477C4.1664 12.4477 1.72718 10.0085 1.72718 6.99954H0.858753C0.858753 10.4881 3.68678 13.3161 7.17532 13.3161V12.4477ZM1.72718 6.99954C1.72718 3.99062 4.1664 1.5514 7.17532 1.5514V0.682972C3.68678 0.682972 0.858753 3.511 0.858753 6.99954H1.72718ZM7.17532 1.5514C10.1842 1.5514 12.6235 3.99062 12.6235 6.99954H13.4919C13.4919 3.511 10.6639 0.682972 7.17532 0.682972V1.5514ZM10.8588 6.99954C10.8588 9.03384 9.20962 10.683 7.17532 10.683V11.5514C9.68925 11.5514 11.7272 9.51346 11.7272 6.99954H10.8588ZM7.17532 10.683C5.14102 10.683 3.49189 9.03384 3.49189 6.99954H2.62346C2.62346 9.51346 4.6614 11.5514 7.17532 11.5514V10.683ZM3.49189 6.99954C3.49189 4.96524 5.14102 3.31611 7.17532 3.31611V2.44768C4.6614 2.44768 2.62346 4.48562 2.62346 6.99954H3.49189ZM7.17532 3.31611C9.20962 3.31611 10.8588 4.96524 10.8588 6.99954H11.7272C11.7272 4.48562 9.68925 2.44768 7.17532 2.44768V3.31611Z">
+                                </svg>
+                                20 минут
+                            </div>
+        
+                        </div> <!-- main-article-date -->
+        
+                        <div class="main-article-text-headers white main-article-text-headers-small">
+                            <h2>Header - H2 - Bold Header - H2 - Bold Header - H2 - Bold</h2>
+                            <p>
+                                Subtitle - Inter - Medium - 18 - Subtitle - Inter - Medium - 18 - Subtitle - Inter - Medium - 18 - Subtitle - Inter - Medium - 18 - Subtitle - Inter - Medium - 18 - Subtitle - Inter - Medium - 18 - 
+                            </p>
+                        </div>
                     </div>
+    
+                </section> <!-- main-article article-vertical -->
+                <section class="main-article article-vertical">
 
-                </div> <!-- main-article-date -->
-
-                <div class="main-article-text-headers white main-article-text-headers-small">
-                    <h2>Header - H2 - Bold</h2>
-                    <h2>Header - H2 - Bold</h2>
-                    <h2>Header - H2 - Bold</h2>
-                </div>
-
-            </section> <!-- main-article article-vertical -->
-            <section class="main-article article-vertical">
-
-                <div class="main-article-banner article-vertical-banner">
-                    <img src="" alt="">
-                </div>
-                <div class="main-article-date article-vertical-date">
-
-                    <div class="main-article-date-day">
-                        19 Июля, 2022
+                    <div class="main-article-banner article-vertical-banner">
+                        <img src="" alt="">
                     </div>
-                    <div class="main-article-date-time">
-                        
-                        <svg class="main-article-date-time-svg" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M7.60954 5.23483C7.60954 4.99502 7.41513 4.80062 7.17532 4.80062C6.93551 4.80062 6.74111 4.99502 6.74111 5.23483H7.60954ZM7.50049 7.16212L7.69468 6.77375L7.50049 7.16212ZM8.1576 7.97615C8.3721 8.0834 8.63292 7.99646 8.74017 7.78196C8.84741 7.56747 8.76047 7.30665 8.54598 7.1994L8.1576 7.97615ZM6.74111 5.23483V6.63599H7.60954V5.23483H6.74111ZM7.3063 7.5505L8.1576 7.97615L8.54598 7.1994L7.69468 6.77375L7.3063 7.5505ZM6.74111 6.63599C6.74111 7.02327 6.95991 7.3773 7.3063 7.5505L7.69468 6.77375C7.6425 6.74766 7.60954 6.69433 7.60954 6.63599H6.74111ZM12.6235 6.99954C12.6235 10.0085 10.1842 12.4477 7.17532 12.4477V13.3161C10.6639 13.3161 13.4919 10.4881 13.4919 6.99954H12.6235ZM7.17532 12.4477C4.1664 12.4477 1.72718 10.0085 1.72718 6.99954H0.858753C0.858753 10.4881 3.68678 13.3161 7.17532 13.3161V12.4477ZM1.72718 6.99954C1.72718 3.99062 4.1664 1.5514 7.17532 1.5514V0.682972C3.68678 0.682972 0.858753 3.511 0.858753 6.99954H1.72718ZM7.17532 1.5514C10.1842 1.5514 12.6235 3.99062 12.6235 6.99954H13.4919C13.4919 3.511 10.6639 0.682972 7.17532 0.682972V1.5514ZM10.8588 6.99954C10.8588 9.03384 9.20962 10.683 7.17532 10.683V11.5514C9.68925 11.5514 11.7272 9.51346 11.7272 6.99954H10.8588ZM7.17532 10.683C5.14102 10.683 3.49189 9.03384 3.49189 6.99954H2.62346C2.62346 9.51346 4.6614 11.5514 7.17532 11.5514V10.683ZM3.49189 6.99954C3.49189 4.96524 5.14102 3.31611 7.17532 3.31611V2.44768C4.6614 2.44768 2.62346 4.48562 2.62346 6.99954H3.49189ZM7.17532 3.31611C9.20962 3.31611 10.8588 4.96524 10.8588 6.99954H11.7272C11.7272 4.48562 9.68925 2.44768 7.17532 2.44768V3.31611Z">
-                        </svg>
-                        20 минут
+                    <div class="wrapper-vertical-banner">
+                        <div class="main-article-date article-vertical-date">
+    
+                            <div class="main-article-date-day">
+                                19 Июля, 2022
+                            </div>
+                            <div class="main-article-date-time">
+                                
+                                <svg class="main-article-date-time-svg" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.60954 5.23483C7.60954 4.99502 7.41513 4.80062 7.17532 4.80062C6.93551 4.80062 6.74111 4.99502 6.74111 5.23483H7.60954ZM7.50049 7.16212L7.69468 6.77375L7.50049 7.16212ZM8.1576 7.97615C8.3721 8.0834 8.63292 7.99646 8.74017 7.78196C8.84741 7.56747 8.76047 7.30665 8.54598 7.1994L8.1576 7.97615ZM6.74111 5.23483V6.63599H7.60954V5.23483H6.74111ZM7.3063 7.5505L8.1576 7.97615L8.54598 7.1994L7.69468 6.77375L7.3063 7.5505ZM6.74111 6.63599C6.74111 7.02327 6.95991 7.3773 7.3063 7.5505L7.69468 6.77375C7.6425 6.74766 7.60954 6.69433 7.60954 6.63599H6.74111ZM12.6235 6.99954C12.6235 10.0085 10.1842 12.4477 7.17532 12.4477V13.3161C10.6639 13.3161 13.4919 10.4881 13.4919 6.99954H12.6235ZM7.17532 12.4477C4.1664 12.4477 1.72718 10.0085 1.72718 6.99954H0.858753C0.858753 10.4881 3.68678 13.3161 7.17532 13.3161V12.4477ZM1.72718 6.99954C1.72718 3.99062 4.1664 1.5514 7.17532 1.5514V0.682972C3.68678 0.682972 0.858753 3.511 0.858753 6.99954H1.72718ZM7.17532 1.5514C10.1842 1.5514 12.6235 3.99062 12.6235 6.99954H13.4919C13.4919 3.511 10.6639 0.682972 7.17532 0.682972V1.5514ZM10.8588 6.99954C10.8588 9.03384 9.20962 10.683 7.17532 10.683V11.5514C9.68925 11.5514 11.7272 9.51346 11.7272 6.99954H10.8588ZM7.17532 10.683C5.14102 10.683 3.49189 9.03384 3.49189 6.99954H2.62346C2.62346 9.51346 4.6614 11.5514 7.17532 11.5514V10.683ZM3.49189 6.99954C3.49189 4.96524 5.14102 3.31611 7.17532 3.31611V2.44768C4.6614 2.44768 2.62346 4.48562 2.62346 6.99954H3.49189ZM7.17532 3.31611C9.20962 3.31611 10.8588 4.96524 10.8588 6.99954H11.7272C11.7272 4.48562 9.68925 2.44768 7.17532 2.44768V3.31611Z">
+                                </svg>
+                                20 минут
+                            </div>
+        
+                        </div> <!-- main-article-date -->
+        
+                        <div class="main-article-text-headers white main-article-text-headers-small">
+                            <h2>Header - H2 - Bold Header - H2 - Bold Header - H2 - Bold</h2>
+                            <p>
+                                Subtitle - Inter - Medium - 18 - Subtitle - Inter - Medium - 18 - Subtitle - Inter - Medium - 18 - Subtitle - Inter - Medium - 18 - Subtitle - Inter - Medium - 18 - Subtitle - Inter - Medium - 18 - 
+                            </p>
+                        </div>
                     </div>
-
-                </div> <!-- main-article-date -->
-
-                <div class="main-article-text-headers white main-article-text-headers-small">
-                    <h2>Header - H2 - Bold</h2>
-                    <h2>Header - H2 - Bold</h2>
-                    <h2>Header - H2 - Bold</h2>
-                </div>
-
-            </section> <!-- main-article article-vertical -->
+    
+                </section> <!-- main-article article-vertical -->
+            </section>
 
         </main>
 
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 </html>
