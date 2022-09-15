@@ -190,7 +190,7 @@ body {
 
 .article-full {
     padding: 0;
-    background-color: #444444;
+    background-color: #F4F4F4;
 }
 
 .article-full-banner {
@@ -585,6 +585,10 @@ body {
     content: none;
 }
 
+.swiper2 {
+    display: none;
+}
+
 @media only screen and (min-width: 766px) {
     body {
         background: #F4F4F4;
@@ -792,11 +796,26 @@ body {
         overflow-x: hidden;
     }
 
+    .swiper2 {
+        display: block;
+    }
+
+    .no-slider {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 1440px) {
     body {
         background-color: #F4F4F4;
+    }
+
+    .no-slider {
+        display: flex;
+    }
+
+    .swiper2 {
+        display: none;
     }
 
     .container {

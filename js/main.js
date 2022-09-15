@@ -16,6 +16,7 @@ const swiper = new Swiper('.swiper', {
 });
 
 const screenWidth = window.screen.width;
+const noSlider = document.querySelector(".no-slider");
 // .swiper-wrapper
 // .swiper-slide
 if(screenWidth > 430 && screenWidth < 1023) {
