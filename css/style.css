@@ -142,6 +142,10 @@ body {
     min-width: 67px;
 }
 
+.date-large  .main-article-date-time {
+    width: 38%;
+}
+
 .tag-text-header {
     font-size: 14px;
     line-height: 120%;
@@ -230,7 +234,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #444444;
+    background-color: #F4F4F4;
     padding: 0;
 }
 
@@ -589,6 +593,14 @@ body {
     display: none;
 }
 
+.main-article-text {
+    display: none;
+}
+
+.text-black {
+    color: #000;
+}
+
 @media only screen and (min-width: 766px) {
     body {
         background: #F4F4F4;
@@ -758,7 +770,7 @@ body {
         padding: 0 16px;
     }
 
-/* _____________________________  main*/
+    /* _____________________________  main*/
 
     #first-header h2 {
         font-weight: 800;
@@ -995,5 +1007,182 @@ body {
         font-size: 18px;
         line-height: 120%;
         padding-top: 43px;
+    }
+
+    .wrapper-header-dp {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .news {
+        width: 22.8%;
+        height: 496px;
+        background-color: #444444;
+    }
+
+    .desktop-tags {
+        order: -1;
+        flex-direction: column;
+        align-items: center;
+        padding: 12px;
+        height: 496px;
+        justify-content: flex-start;
+        width: 22.8%;
+    }
+
+    .article-header .main-article-date {
+        display: none;
+    }
+
+    .article-header {
+        width: 50%;
+        height: 496px;
+    }
+
+    .article-header {
+        padding: 12px 12px 0;
+        justify-content: flex-start;
+    }
+
+    .article-header-banner {
+        width: 100%;
+    }
+
+    .desktop-tags .article-tags-banner {
+        width: 100%;
+        height: 182px;
+        margin-bottom: 4px;
+    }
+
+    .main-article-text-headers {
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 110%;
+        margin: 0 0 12px 0;
+    }
+
+    .tablet-banner {
+        width: 100%;
+    }
+
+    .main-article-tag-text {
+        width: 79.58%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .no-slider {
+        flex-direction: column;
+        justify-content: space-between;
+        width: 32.68%;
+        height: 720px;
+    }
+
+    .no-slider .article-vertical-banner {
+        width: 100%;
+        height: 360x;
+    }
+
+    .no-slider .tablet-date {
+        order: 1;
+        padding: 16px;
+    }
+
+    .main-article-text-headers {
+        padding: 16px;
+    }
+
+    .main-article-text {
+        display: block;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        color: #fff;
+        padding-left: 16px;
+        line-height: 120%;
+    }
+
+    .wrapper-article-vertical {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .desktop-fulls {
+        width: 66.2%;
+    }
+
+    .desktop-fulls .article-full {
+        width: 100%;
+        flex-direction: row;
+        height: 360px;
+    }
+
+    .desktop-fulls .article-full .article-full-banner {
+        height: 100%;
+    }
+
+    .desktop-fulls .article-full .article-full-banner-text {
+        width: 96.2%;
+        height: 100%;
+        padding: 0;
+    }
+
+    .text-black {
+        color: #000;
+    }
+
+    .desktop-fulls .article-full-banner-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .desktop-fulls .tablet-date {
+        order: 1;
+        padding: 0 0 16px 16px;
+    }
+
+    .desktop-fulls .article-full:nth-child(2n) {
+        flex-direction: row-reverse;
+    }
+
+    .full-row {
+        width: 100%;
+    }
+
+    .full-row .article-full {
+        height: 560px;
+    }
+
+    .full-row .article-full-banner {
+        width: 76.75%;
+    }
+
+    .full-row .dark {
+        height: 100%;
+        width: 37.122%;
+        max-height: none;
+        padding: 24px 0 24px 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    .full-row .main-article-text-headers-large {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 110%;
+        padding: 0;
+        width: 69.3%;
+    }
+
+    .full-row .tablet-date {
+        padding: 0;
     }
 }
