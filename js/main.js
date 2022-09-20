@@ -38,6 +38,26 @@ if(screenWidth > 430 && screenWidth < 1023) {
                 spaceBetween: 8,
             }
         }
-    
     });
 }
+
+let slidesCount = 7.5;
+
+if(screenWidth > 430 && screenWidth < 1023) {
+    slidesCount = 4.5;
+}
+
+const headerSwiper = new Swiper('.swiper-header', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+
+    freeMode: true,
+    mousewheel: true,
+    breakpoints: {
+        0: {
+            slidesPerView: slidesCount,
+            spaceBetween: 16,
+        }
+    }
+});
